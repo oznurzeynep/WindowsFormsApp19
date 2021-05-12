@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database1DataSet" targetNamespace="http://tempuri.org/Database1DataSet.xsd" xmlns:mstns="http://tempuri.org/Database1DataSet.xsd" xmlns="http://tempuri.org/Database1DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApp19.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database1DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Database1DataSet" msprop:Generator_UserDSName="Database1DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NewOrder" msprop:Generator_TableClassName="NewOrderDataTable" msprop:Generator_TableVarName="tableNewOrder" msprop:Generator_TablePropName="NewOrder" msprop:Generator_RowDeletingName="NewOrderRowDeleting" msprop:Generator_RowChangingName="NewOrderRowChanging" msprop:Generator_RowEvHandlerName="NewOrderRowChangeEventHandler" msprop:Generator_RowDeletedName="NewOrderRowDeleted" msprop:Generator_UserTableName="NewOrder" msprop:Generator_RowChangedName="NewOrderRowChanged" msprop:Generator_RowEvArgName="NewOrderRowChangeEvent" msprop:Generator_RowClassName="NewOrderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customerName_id" msprop:Generator_ColumnVarNameInTable="columncustomerName_id" msprop:Generator_ColumnPropNameInRow="customerName_id" msprop:Generator_ColumnPropNameInTable="customerName_idColumn" msprop:Generator_UserColumnName="customerName_id" type="xs:string" minOccurs="0" />
+              <xs:element name="food" msprop:Generator_ColumnVarNameInTable="columnfood" msprop:Generator_ColumnPropNameInRow="food" msprop:Generator_ColumnPropNameInTable="foodColumn" msprop:Generator_UserColumnName="food" type="xs:string" minOccurs="0" />
+              <xs:element name="foodName" msprop:Generator_ColumnVarNameInTable="columnfoodName" msprop:Generator_ColumnPropNameInRow="foodName" msprop:Generator_ColumnPropNameInTable="foodNameColumn" msprop:Generator_UserColumnName="foodName" type="xs:string" minOccurs="0" />
+              <xs:element name="cost" msprop:Generator_ColumnVarNameInTable="columncost" msprop:Generator_ColumnPropNameInRow="cost" msprop:Generator_ColumnPropNameInTable="costColumn" msprop:Generator_UserColumnName="cost" type="xs:long" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_UserColumnName="unit" type="xs:long" minOccurs="0" />
+              <xs:element name="totalCost" msprop:Generator_ColumnVarNameInTable="columntotalCost" msprop:Generator_ColumnPropNameInRow="totalCost" msprop:Generator_ColumnPropNameInTable="totalCostColumn" msprop:Generator_UserColumnName="totalCost" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="OldUnpaidOrder" msprop:Generator_TableClassName="OldUnpaidOrderDataTable" msprop:Generator_TableVarName="tableOldUnpaidOrder" msprop:Generator_TablePropName="OldUnpaidOrder" msprop:Generator_RowDeletingName="OldUnpaidOrderRowDeleting" msprop:Generator_RowChangingName="OldUnpaidOrderRowChanging" msprop:Generator_RowEvHandlerName="OldUnpaidOrderRowChangeEventHandler" msprop:Generator_RowDeletedName="OldUnpaidOrderRowDeleted" msprop:Generator_UserTableName="OldUnpaidOrder" msprop:Generator_RowChangedName="OldUnpaidOrderRowChanged" msprop:Generator_RowEvArgName="OldUnpaidOrderRowChangeEvent" msprop:Generator_RowClassName="OldUnpaidOrderRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customersName_id" msprop:Generator_ColumnVarNameInTable="columncustomersName_id" msprop:Generator_ColumnPropNameInRow="customersName_id" msprop:Generator_ColumnPropNameInTable="customersName_idColumn" msprop:Generator_UserColumnName="customersName_id" type="xs:string" minOccurs="0" />
+              <xs:element name="foodsName" msprop:Generator_ColumnVarNameInTable="columnfoodsName" msprop:Generator_ColumnPropNameInRow="foodsName" msprop:Generator_ColumnPropNameInTable="foodsNameColumn" msprop:Generator_UserColumnName="foodsName" type="xs:string" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_ColumnVarNameInTable="columnunit" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_UserColumnName="unit" type="xs:long" minOccurs="0" />
+              <xs:element name="cost" msprop:Generator_ColumnVarNameInTable="columncost" msprop:Generator_ColumnPropNameInRow="cost" msprop:Generator_ColumnPropNameInTable="costColumn" msprop:Generator_UserColumnName="cost" type="xs:long" minOccurs="0" />
+              <xs:element name="totalCost" msprop:Generator_ColumnVarNameInTable="columntotalCost" msprop:Generator_ColumnPropNameInRow="totalCost" msprop:Generator_ColumnPropNameInTable="totalCostColumn" msprop:Generator_UserColumnName="totalCost" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="NewOrderKey1">
+      <xs:selector xpath=".//mstns:NewOrder" />
+      <xs:field xpath="mstns:customerName_id" />
+    </xs:unique>
+    <xs:unique name="OldUnpaidOrderKey1">
+      <xs:selector xpath=".//mstns:OldUnpaidOrder" />
+      <xs:field xpath="mstns:customersName_id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="OldUnpaidOrder_NewOrder" msdata:parent="OldUnpaidOrder" msdata:child="NewOrder" msdata:parentkey="customersName_id" msdata:childkey="customerName_id" msprop:Generator_UserChildTable="NewOrder" msprop:Generator_ChildPropName="GetNewOrderRows" msprop:Generator_UserRelationName="OldUnpaidOrder_NewOrder" msprop:Generator_RelationVarName="relationOldUnpaidOrder_NewOrder" msprop:Generator_UserParentTable="OldUnpaidOrder" msprop:Generator_ParentPropName="OldUnpaidOrderRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
